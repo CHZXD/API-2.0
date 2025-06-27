@@ -18,14 +18,14 @@ public class Jogador {
     private String nome; 
     private String nickname; 
     private String email; 
-    private String celular; 
+    private String telefone; 
     private String senha;
 
     public Jogador(DadosCadastroJogador dados){
         this.nome = dados.nome();
         this.nickname = dados.nickname();
         this.email = dados.email();
-        this.celular = dados.celular();
+        this.telefone = dados.telefone();
         this.senha = dados.senha();
     }
 
