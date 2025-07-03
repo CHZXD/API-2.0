@@ -12,7 +12,7 @@ import com.jkalango.webapi.jogadores.JogadorRepository;
 
 
 @RestController
-@RequestMapping("/jogador")
+@RequestMapping("/NovoJogadores")
 public class JogadorController {
 @Autowired
 private JogadorRepository repository;
